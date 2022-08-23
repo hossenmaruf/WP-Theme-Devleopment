@@ -69,10 +69,6 @@ function m_customaizer_register($wp_customize)
         'setting' => 'm_logo',
         'section' => 'm_header_area'
 
-
-
-
-
     )));
 
 
