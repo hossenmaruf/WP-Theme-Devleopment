@@ -56,6 +56,7 @@ h6 {
   text-align: left;
   top: 62px;
   width: 200px;
+  z-index: 99999;
 }
 #header_area .col-md-9 ul li:hover ul {
   left: 0px;
@@ -138,6 +139,9 @@ h6 {
 
    #header_area.center_menu .col-md-9 ul {
     text-align: center;
+   }
+   #header_area.center_menu .col-md-9 ul ul{
+    text-align: left;
    }
 
 
