@@ -104,11 +104,61 @@ function m_customaizer_register($wp_customize)
 
 
         )
+    ));
 
 
 
+
+
+   //footer position
+
+    $wp_customize->add_section('m_footer_option', array(
+
+        'title' => __('Footer Optain', 'hossenmaruf'),
+        'description' => 'update footer'
 
     ));
+
+
+    $wp_customize->add_setting('m_copyright_section', array(
+
+        'default' => '@copy; Copyright 2022',
+
+    ));
+
+
+    $wp_customize->add_control('m_copyright_section', array(
+
+        'label' => 'Copyright Text',
+        'description' => 'change the copyright text',
+        'setting' => 'm_copyright_section',
+        'section' => 'm_footer_option',
+       
+    ));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 add_action('customize_register', 'm_customaizer_register');
