@@ -1,6 +1,7 @@
 <?php
 
-add_theme_support('title-tag');
+
+include_once('include/default.php') ;
 
 include_once('include/enqueue.php');
 
