@@ -17,3 +17,8 @@ include_once('include/theme_function.php');
 
 
 include_once('include/menu_register.php');
+
+
+//widgets register
+
+include_once('include/widgets.php') ;

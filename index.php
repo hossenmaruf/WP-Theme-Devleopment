@@ -36,8 +36,18 @@ get_header(); ?>
           <?php } ?>
         </div>
       </div>
+
+
+
+
+
+
+
+
       <div class="col-md-3">
-        <h2>This is sidebar area</h2>
+       
+         <?php    get_sidebar()   ;     ?>
+
       </div>
     </div>
   </div>
