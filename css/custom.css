@@ -28,6 +28,7 @@ a.redmore {
   border-radius: 10px;
   transition: 0.5s;
 }
+
 a.redmore:hover {
   background: #262626;
 }
@@ -44,6 +45,7 @@ a.redmore:hover {
   margin-bottom: 15px;
   background-color: rgb(118, 224, 188);
   padding: 15px;
+  /* box-shadow: 0 0 10px red ; */
 }
 
 #body_area .post_thumb {
@@ -79,68 +81,108 @@ a.redmore:hover {
   /* transition: .5s; */
 }
 
-  
-  /* navpage page style */
 
-  #page_nav {
-  }
-  #page_nav p.pages {
-    background: #19ab33;
-    color: #fff;
-    padding: 5px 10px;
-  }
-  #page_nav p.pages span {
-    display: inline-block;
-    padding: 0 5px;
-  }
-  #page_nav .page-numbers {
-    background: #19ab33;
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    padding: 5px 10px;
-    margin-right: 5px;
-    transition: 0.5s;
-    border-radius: 5px;
-  }
-  #page_nav .page-numbers.current,
-  #page_nav .page-numbers:hover {
-    background: #262626;
-  }
+/* navpage page style */
 
+#page_nav {}
 
+#page_nav p.pages {
+  background: #19ab33;
+  color: #fff;
+  padding: 5px 10px;
+}
 
+#page_nav p.pages span {
+  display: inline-block;
+  padding: 0 5px;
+}
 
+#page_nav .page-numbers {
+  background: #19ab33;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
 
+#page_nav .page-numbers.current,
+#page_nav .page-numbers:hover {
+  background: #262626;
+}
 
 
 
+/* Side Bar style  */
+
+
+#body_area .child_sideber {
+  margin-bottom: 20px;
+}
+
+#body_area .child_sideber h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1em;
+}
+
+
+ #body_area .wp-block-search__button {
+
+  background: #19ab33;
+  border: 1px solid #ddd;
+  padding: 10px;
+
+}  
+
+#body_area .wp-block-search__button:hover {
+  background: #36a9af;
+  border: 1px solid #30961a;
+}
 
 
 
 
 
+#body_area .wp-block-tag-cloud {
+  color: #fff;
+  background: #262626;
+  display: inline-block;
+  font-size: 12px !important;
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+#body_area .wp-block-tag-cloud:hover {
+  background: #9ed8a8;
+}
 
+.wp-block-latest-posts__list {
 
-
-
-
-
-
-
-
-
-
-
-
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
 
 
 
 /*=======================================
  Header Area Style
 ========================================*/
+
+
+
+
+
 #header_area {
-  padding: 15px 0;
+  padding: 5px 0;
+  box-shadow: #612c2c;
+  background: #19ab33;
 }
 
 #header_area .col-md-9 ul {
