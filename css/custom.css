@@ -131,13 +131,13 @@ a.redmore:hover {
 }
 
 
- #body_area .wp-block-search__button {
+#body_area .wp-block-search__button {
 
   background: #19ab33;
   border: 1px solid #ddd;
   padding: 10px;
 
-}  
+}
 
 #body_area .wp-block-search__button:hover {
   background: #36a9af;
@@ -157,6 +157,7 @@ a.redmore:hover {
   padding: 5px;
   margin-bottom: 5px;
 }
+
 #body_area .wp-block-tag-cloud:hover {
   background: #9ed8a8;
 }
@@ -323,6 +324,21 @@ a.redmore:hover {
 
 
 /* Footer Area */
+
+#footer {
+  background: #484343;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* copyright Area */
 
 #copyright_area {
   background: #292929;
