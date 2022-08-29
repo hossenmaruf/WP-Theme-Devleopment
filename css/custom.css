@@ -84,10 +84,13 @@ a.redmore:hover {
 
 /* navpage page style */
 
-#page_nav {}
+#page_nav {
+
+
+}
 
 #page_nav p.pages {
-  background: #19ab33;
+  background: #1ba134;
   color: #fff;
   padding: 5px 10px;
 }
@@ -326,13 +329,15 @@ a.redmore:hover {
 /* Footer Area */
 
 #footer {
-  background: #484343;
+  background: #2e6739;
   padding: 20px 0;
   color: #fff;
   text-align: center;
 }
 
-
+  .wp-block-separator {
+    color: #19ab33;
+  }
 
 
 
