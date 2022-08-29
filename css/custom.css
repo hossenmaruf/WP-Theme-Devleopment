@@ -334,13 +334,13 @@ a.redmore:hover {
 
 /* Archive Styling */
 
-#archive_title {
+#archive_title  {
   background: #18b251;
   padding: 15px;
 
   margin-bottom: 20px;
 }
-#archive_title h1 {
+#archive_title h1  {
   color: #fff;
   font-size: 20px;
   margin-bottom: 0;
@@ -350,6 +350,10 @@ a.redmore:hover {
 
 
 
+.search_title {
+  background: #18b251;
+  padding: 10px;
+}
 
 
 
