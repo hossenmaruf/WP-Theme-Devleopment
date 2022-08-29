@@ -8,22 +8,9 @@ get_header(); ?>
   <div class="container">
     <div class="row">
       <div class="col-md-9">
-        <?php if (have_posts()) :
-          while (have_posts()) : the_post(); ?>
 
-            <div class="blog_area">
-              <div class="post_thumb">
-                <a href="<?php the_permalink(); ?>"><?php echo the_post_thumbnail('post-thumbnails'); ?></a>
-              </div>
-              <div class="post_details">
-                <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                <?php the_excerpt(); ?>
-              </div>
-            </div>
-        <?php endwhile;
-        else :
-          _e('No post found');
-        endif; ?>
+
+        <?php get_template_part('template_part/blog_setup');  ?>
 
 
 
@@ -34,19 +21,17 @@ get_header(); ?>
             <?php next_posts_link(); ?>
             <?php previous_posts_link(); ?>
           <?php } ?>
+
+          
         </div>
       </div>
 
 
 
 
-
-
-
-
       <div class="col-md-3">
-       
-         <?php    get_sidebar()   ;     ?>
+
+        <?php get_sidebar();     ?>
 
       </div>
     </div>
