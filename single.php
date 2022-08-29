@@ -9,7 +9,7 @@ get_header(); ?>
         <div class="row">
             <div class="col-md-9">
 
-                <?php get_template_part('template_part/page_setup');  ?>
+                <?php get_template_part('template_part/blog_setup');  ?>
 
 
                 <div id="comments_area">
