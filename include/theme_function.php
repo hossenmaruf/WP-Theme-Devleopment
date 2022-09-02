@@ -93,10 +93,12 @@ function m_customaizer_register($wp_customize)
 
     // theme color 
 
+
+
     $wp_customize->add_section('m_colors', array(
 
         'title' => __('Theme Colors', 'hossenmaruf'),
-        'description' => 'change colors if you needed',
+        'description' => 'change colors if you needed'
     ));
 
     $wp_customize->add_setting('m_bg_color', array(
@@ -105,44 +107,37 @@ function m_customaizer_register($wp_customize)
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'm_bg_color'), array(
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'm_bg_color', array(
         'label' => 'Background Color',
         'section' => 'm_colors',
         'setting' => 'm_bg_color',
-    ));
+    )));
 
 
 
-    $wp_customize->add_setting('m_link_color', array(
+    $wp_customize->add_setting('m_primary_color', array(
 
         'default' => '#52c718',
 
     ));
 
-    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'm_link_color'), array(
+    $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'm_primary_color', array(
         'label' => 'Primary Color',
         'section' => 'm_colors',
-        'setting' => 'm_link_color',
-    ));
+        'setting' => 'm_primary_color',
+    )));
 
 }
 
 add_action('customize_register', 'm_customaizer_register');
 
 
-  function m_theme_color_cus (){
-  
-     ?>
-
-         <style> 
-         body{background: <?php echo get_theme_mod('m_bg_color') ; ?>  }
-         :root{ --pink:<?php  echo get_theme_mod('m_link_color') ; ?>  }
-
-
-    <?php
-
-
-
-  } 
-
-  add_action( 'wp_head' , 'm_theme_color_cus') ;
+function m_theme_color_cus(){
+    ?>
+    <style>
+      body{background: <?php echo get_theme_mod('m_bg_color'); ?>}
+      :root{ --pink:<?php echo get_theme_mod('m_primary_color'); ?>}
+    </style>
+    <?php 
+  }
+  add_action('wp_head', 'm_theme_color_cus');
