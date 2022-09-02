@@ -1,17 +1,12 @@
 :root {
-  --pink: #52c718 ;
+  --pink: #52c718;
 }
-
-
-
-
-
-
 
 
 
 img {
   max-width: 50%;
+  height: auto;
 }
 
 body {
@@ -491,4 +486,21 @@ a.redmore:hover {
 
 #submit {
   color: var(--pink);
+}
+
+
+ /* theme service style */
+
+ #service_area {
+  padding: 45px 0;
+}
+#service_area .child_service {
+  background: #ddd;
+  box-shadow: 0 0 10px #ddd;
+  padding: 15px;
+  border-radius: 15px;
+}
+#service_area .child_service img {
+  width: 100%;
+  margin: 0 0 15px;
 }

@@ -126,18 +126,23 @@ function m_customaizer_register($wp_customize)
         'section' => 'm_colors',
         'setting' => 'm_primary_color',
     )));
-
 }
 
 add_action('customize_register', 'm_customaizer_register');
 
 
-function m_theme_color_cus(){
-    ?>
+function m_theme_color_cus()
+{
+?>
     <style>
-      body{background: <?php echo get_theme_mod('m_bg_color'); ?>}
-      :root{ --pink:<?php echo get_theme_mod('m_primary_color'); ?>}
+        body {
+            background: <?php echo get_theme_mod('m_bg_color'); ?>
+        }
+
+        :root {
+            --pink: <?php echo get_theme_mod('m_primary_color'); ?>
+        }
     </style>
-    <?php 
-  }
-  add_action('wp_head', 'm_theme_color_cus');
+<?php
+}
+add_action('wp_head', 'm_theme_color_cus');
