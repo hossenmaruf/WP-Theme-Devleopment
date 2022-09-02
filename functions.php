@@ -5,6 +5,8 @@ include_once('include/default.php') ;
 
 include_once('include/enqueue.php');
 
+include_once('include/custom_post.php');
+
 
 //theme function
 
