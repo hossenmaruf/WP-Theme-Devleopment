@@ -519,10 +519,22 @@ a.redmore:hover {
  }
 
 
- .col-md-4 {
+ #service_area .col-md-4 {
 
   width: 100%;
   margin-bottom: 20px;
+
+ }
+
+ #slider_area img {
+   
+  width: 100%;
+  height: auto;
+ }
+ #slider_area {
+   
+margin: 25px 0;
+
 
  }
  
