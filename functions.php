@@ -24,3 +24,8 @@ include_once('include/menu_register.php');
 //widgets register
 
 include_once('include/widgets.php') ;
+
+
+//short code
+
+include_once('include/short_code.php') ;

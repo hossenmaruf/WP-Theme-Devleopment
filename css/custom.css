@@ -504,3 +504,17 @@ a.redmore:hover {
   width: 100%;
   margin: 0 0 15px;
 }
+
+
+ /* short code style */
+
+ .button {
+
+   background : red ;
+   padding: 10px 25px;
+   border-radius: 5px;
+   display: inline-block;
+
+
+ }
+ 
