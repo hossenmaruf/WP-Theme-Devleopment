@@ -7,23 +7,47 @@
 get_header(); ?>
 
 <section id="slider_area">
-      <div id="owl-slider" class="owl-carousel owl-theme">
-        <?php 
-        query_posts('post_type=slider&post_status=publish&posts_per_page=3&order=ASC&paged='. get_query_var('post')); 
+  <div id="owl-slider" class="owl-carousel owl-theme">
+    <?php
+    query_posts('post_type=slider&post_status=publish&posts_per_page=3&order=ASC&paged=' . get_query_var('post'));
 
-        if(have_posts()) :
-          while(have_posts()) : the_post(); 
-        ?>
+    if (have_posts()) :
+      while (have_posts()) : the_post();
+    ?>
         <div>
           <?php echo the_post_thumbnail('slider') ?>
         </div>
 
-        <?php 
-          endwhile;
-          endif;
-        ?>
+    <?php
+      endwhile;
+    endif;
+    ?>
+  </div>
+</section>
+
+
+
+
+<div id="homepage_posts">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-12">
+
+
+        <?php dynamic_sidebar('home-1') ?>
+
+
       </div>
-    </section>
+    </div>
+
+  </div>
+
+</div>
+
+
 
 
 

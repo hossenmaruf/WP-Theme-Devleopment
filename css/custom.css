@@ -5,7 +5,8 @@
 
 
 img {
-  max-width: 50%;
+
+  max-width: 100%;
   height: auto;
 }
 
@@ -44,14 +45,14 @@ a.redmore:hover {
 /* index style */
 
 #body_area {
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 #body_area .blog_area {
   width: 100%;
   margin-bottom: 15px;
   background-color: rgb(118, 224, 188);
-  padding: 15px;
+  padding: 10px;
   /* box-shadow: 0 0 10px red ; */
 }
 
@@ -526,4 +527,29 @@ a.redmore:hover {
 
  }
 
+
+
+ /*     front page category post show css      */
+
  
+
+  #homepage_posts .child_home ul {
+
+
+    text-align: center;
+  }
+
+  #homepage_posts .child_home li {
+
+   display: inline-block;
+   background: #97bd8f ;
+   padding: 10px;
+   box-shadow: #612c2c;
+   margin: 62px 40px;
+   border-radius: 10px;
+   width: 500px;
+   height: 500px;
+
+    
+  }
+  
