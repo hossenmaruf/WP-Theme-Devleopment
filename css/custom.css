@@ -75,6 +75,10 @@ a.redmore:hover {
 #body_area .post_details {
   width: 100%;
 }
+#body_area .post_details p span {
+ display: inline-block;
+ margin: 0 5px;
+}
 
 #body_area .post_details div {
   width: 100% !important;
@@ -201,6 +205,7 @@ a.redmore:hover {
   padding: 5px 0;
   box-shadow: #612c2c;
   background: var(--pink);
+  height: 100px;
 }
 
 #header_area .col-md-9 ul {
@@ -222,6 +227,14 @@ a.redmore:hover {
   display: block;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+  color: #1130cc;
+
+}
+
+#header_area img {
+  height: 50%;
 }
 
 #header_area .col-md-9 ul li a:hover {
