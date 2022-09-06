@@ -17,7 +17,6 @@ function m_widgets_register()
 
     ));
 
-
     register_sidebar(array(
 
 
@@ -29,7 +28,7 @@ function m_widgets_register()
         'before_title' => '<h2 class = "title" > ',
         'after_title' => '</h2>',
 
-
+        
     ));
     register_sidebar(array(
 

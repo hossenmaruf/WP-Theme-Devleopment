@@ -46,3 +46,10 @@ function m_add_google_fonts()
 }
 
 add_action('wp_enqueue_scripts', 'm_add_google_fonts');
+
+
+// Desicon Not Showing fixing
+function deshicon_load_issue(){
+    wp_enqueue_style('dashicons');
+  }
+  add_action('wp_enqueue_scripts', 'deshicon_load_issue');

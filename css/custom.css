@@ -75,9 +75,10 @@ a.redmore:hover {
 #body_area .post_details {
   width: 100%;
 }
+
 #body_area .post_details p span {
- display: inline-block;
- margin: 0 5px;
+  display: inline-block;
+  margin: 0 5px;
 }
 
 #body_area .post_details div {
@@ -503,66 +504,67 @@ a.redmore:hover {
 }
 
 
- /* theme service style */
+/* theme service style */
 
- #service_area {
+#service_area {
   padding: 45px 0;
 }
+
 #service_area .child_service {
   background: #ddd;
   box-shadow: 0 0 10px #ddd;
   padding: 15px;
   border-radius: 15px;
 }
+
 #service_area .child_service img {
   width: 100%;
   margin: 0 0 15px;
 }
 
 
- /* short code style */
+/* short code style */
 
- .button {
+.button {
 
-   background : red ;
-   padding: 10px 25px;
-   border-radius: 5px;
-   display: inline-block;
-
-
- }
+  background: red;
+  padding: 10px 25px;
+  border-radius: 5px;
+  display: inline-block;
 
 
- #service_area .col-md-4 {
+}
+
+
+#service_area .col-md-4 {
 
   width: 100%;
   margin-bottom: 20px;
 
- }
+}
 
 
 
- /*     front page category post show css      */
-
- 
-
-  #homepage_posts .child_home ul {
+/*     front page category post show css      */
 
 
-    text-align: center;
-  }
 
-  #homepage_posts .child_home li {
+#homepage_posts .child_home ul {
 
-   display: inline-block;
-   background: #97bd8f ;
-   padding: 10px;
-   box-shadow: #612c2c;
-   margin: 62px 40px;
-   border-radius: 10px;
-   width: 500px;
-   height: 500px;
 
-    
-  }
-  
+  text-align: center;
+}
+
+#homepage_posts .child_home li {
+
+  display: inline-block;
+  background: #97bd8f;
+  padding: 10px;
+  box-shadow: #612c2c;
+  margin: 62px 40px;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+
+
+}
